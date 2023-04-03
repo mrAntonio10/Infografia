@@ -1,5 +1,9 @@
 import arcade
-
+'''
+Marco Antonio Roca Montenegro
+Docente: Eduardo Laruta Espejo
+Materia: Infografia 2023
+'''
 def draw_triangle(x, y, width, height, color):
     points = [(x, y), (x + width / 2, y + height), (x - width / 2, y + height)]
     arcade.draw_polygon_filled(points, color)

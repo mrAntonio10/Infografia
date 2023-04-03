@@ -1,5 +1,9 @@
 import arcade
-
+'''
+Marco Antonio Roca Montenegro
+Docente: Eduardo Laruta Espejo
+Materia: Infografia 2023
+'''
 #variables de ventana
 SCREEN_WIDTH=1000
 SCREEN_HEIGHT=650
