@@ -41,11 +41,11 @@ class Polygon:
     
     def rotate(self, theta):
         # Definir un ángulo en radianes
-        angulo = np.pi/4
+        
 
         # Calcular el seno y coseno del ángulo
-        seno = np.sin(angulo)
-        coseno = np.cos(angulo)
+        seno = np.sin(theta)
+        coseno = np.cos(theta)
 
         Tr = np.array([
                 [coseno, -seno, 0], 
