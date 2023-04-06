@@ -26,7 +26,7 @@ if __name__ == "__main__":
     arcade.set_background_color(arcade.color.BLACK)
 
     # Dibujar triángulos anidados
-    draw_nested_triangles(SCREEN_WIDTH / 2, SCREEN_HEIGHT / 3, SCREEN_HEIGHT / 2, SCREEN_HEIGHT / 2, 1)
+    draw_nested_triangles(SCREEN_WIDTH / 2, SCREEN_HEIGHT / 3, SCREEN_HEIGHT / 2, SCREEN_HEIGHT / 2, 5)
 
     # Actualizar ventana
     arcade.finish_render()
