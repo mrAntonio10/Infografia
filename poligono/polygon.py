@@ -37,13 +37,14 @@ class Polygon:
                 [0, 1, dy], 
                 [0, 0, 1]   
             ])
-        self.polygon.transform(Tr)
+        self.transform(Tr)
     
     def rotate(self, theta):
         # Definir un ángulo en radianes
         
 
         # Calcular el seno y coseno del ángulo
+            #es np.sin(np.radians(theta))
         seno = np.sin(theta)
         coseno = np.cos(theta)
 
@@ -52,7 +53,7 @@ class Polygon:
                 [seno, coseno, 0],  
                 [0, 0, 1]   
             ])
-        self.polygon.transform(Tr)
+        self.transform(Tr)
     
     def scale(self, sx, sy):
         #1. Matris pa traslado
@@ -61,7 +62,7 @@ class Polygon:
                 [0, sy, 0],  
                 [0, 0, 1]   
             ])
-        self.polygon.transform(Tr)
+        self.transform(Tr)
     
 
 
